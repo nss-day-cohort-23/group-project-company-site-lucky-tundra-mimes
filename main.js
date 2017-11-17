@@ -3,14 +3,14 @@ kayakList = [
   	name:"Mamba",
     price:"$879",
     description:"our lightest playboat",
-    url:"prod_imgs/kayak1.jpg"
+    url:"ivana-cajina-363948.jpg"
   
   },
   {
   	name :"Zen",
     price:"$579",
     description:"great for beginners",
-    url:"prod_imgs/kayak2.jpg"
+    url:"nitish-meena-111116.jpg"
   },
   {
   	name : "Angler",
@@ -54,7 +54,7 @@ kayakList = [
 function cardAssign() {
     let empty = "";
 	for (var i=0; i < kayakList.length; i++) {
-        let productName = `<div class="card"><p>name: ${kayakList[i].name}</p><p>price: 	${kayakList[i].price}</p><p>description: ${kayakList[i].description}</p><p>url:${kayakList.url}</p></div>`;
+        let productName = `<div class="card"><p>name: ${kayakList[i].name}</p><p>price: 	${kayakList[i].price}</p><p>description: ${kayakList[i].description}</p><img src=${kayakList[i].url}></div>`;
         empty += productName;
         console.log('this is each card',empty);
     };
