@@ -3,50 +3,50 @@ kayakList = [
   	name:"Mamba",
     price:"$879",
     description:"our lightest playboat",
-    url:"prod_imgs/kayak1.jpg"
+    url:"images/kayak1.jpg"
   
   },
   {
   	name :"Zen",
     price:"$579",
     description:"great for beginners",
-    url:"prod_imgs/kayak2.jpg"
+    url:"images/kayak2.jpg"
   },
   {
   	name : "Angler",
     price : "$779",
     description: "for the seasoned sportsman",
-    url: "prod_imgs/kayak3.jpg"
+    url: "images/kayak3.jpg"
   },
   {
   	name : "Outback",
     price : "$1179",
     description: "the workhorse",
-    url: "prod_imgs/kayak4.jpg"
+    url: "images/kayak4.jpg"
   },
   {
   	name : "Barracuda",
     price : "$579",
     description: "versatile sit-on-top",
-    url: "prod_imgs/kayak5.jpg"
+    url: "images/kayak5.jpg"
   },
   {
   	name : "Kraken",
     price : "$479",
     description: "speedy and nimble",
-    url: "prod_imgs/kayak6.jpg"
+    url: "images/kayak6.jpg"
   },
   {
   	name : "Nomad",
     price : "$979",
     description: "rugged playboat",
-    url: "prod_imgs/kayak7.jpg"
+    url: "images/kayak7.jpg"
   },
   {
   	name : "Big Rig",
     price : "$1279",
     description: "extra stable and roomy",
-    url: "prod_imgs/kayak8.jpg"
+    url: "images/kayak8.jpg"
   }
 
 
