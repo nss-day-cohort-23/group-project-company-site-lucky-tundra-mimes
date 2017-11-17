@@ -1,23 +1,55 @@
 kayakList = [
 	{
-  	name:"fsdfs",
-    price:"2",
-    description:"a kayak",
-    url:"junk.com"
+  	name:"Mamba",
+    price:"$879",
+    description:"our lightest playboat",
+    url:"prod_imgs/kayak1.jpg"
   
   },
   {
-  	name :"s",
-    price:"3",
-    description:"a kayak",
-    url:"junk.com"
+  	name :"Zen",
+    price:"$579",
+    description:"great for beginners",
+    url:"prod_imgs/kayak2.jpg"
   },
   {
-  	name : "t",
-    price : "6",
-    description: "b kayak",
-    url: "url.com"
+  	name : "Angler",
+    price : "$779",
+    description: "for the seasoned sportsman",
+    url: "prod_imgs/kayak3.jpg"
+  },
+  {
+  	name : "Outback",
+    price : "$1179",
+    description: "the workhorse",
+    url: "prod_imgs/kayak4.jpg"
+  },
+  {
+  	name : "Barracuda",
+    price : "$579",
+    description: "versatile sit-on-top",
+    url: "prod_imgs/kayak5.jpg"
+  },
+  {
+  	name : "Kraken",
+    price : "$479",
+    description: "speedy and nimble",
+    url: "prod_imgs/kayak6.jpg"
+  },
+  {
+  	name : "Nomad",
+    price : "$979",
+    description: "rugged playboat",
+    url: "prod_imgs/kayak7.jpg"
+  },
+  {
+  	name : "Big Rig",
+    price : "$1279",
+    description: "extra stable and roomy",
+    url: "prod_imgs/kayak8.jpg"
   }
+
+
 ];
 function cardAssign() {
     let empty = "";
