@@ -214,6 +214,57 @@ Employee page styling
 		margin: 2em 4% 0 4%;
 	}
 
+
 	.mainbody {
 		background-color: rgba(81, 81, 119, 0.034)
+	}
+	/* Awards Page Style */
+	.award-head {
+		font-size: 60px;
+		text-align: center;
+		margin: 3em;
+	}
+	
+	 p {
+		text-align: center
+	}
+	
+	.image-award {
+	   
+		display:flex;
+		height: 20em;
+		width: 300px;
+	}
+	
+	.award {
+		border: 1px solid black;
+		display: flex;
+		padding: 16px;
+		/* flex-wrap: wrap; */
+		
+	}
+	
+	.award-image {
+		display: flex;
+		flex-wrap: wrap;
+		height: 20em;
+		width: 20em;
+		margin: 2em;
+		padding: 0.83em;
+		border-right: 1px solid black;
+		
+	}
+	
+	/* .award-blurb {
+		border: 1px solid black;
+	
+	} */
+	
+	.award p {
+		display: flex;
+		text-align: center;
+		margin:auto;
+		padding: 2em;
+		border:0.5px solid black;
+		border-radius: 4px;
 	}
