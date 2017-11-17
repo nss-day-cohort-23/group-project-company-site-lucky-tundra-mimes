@@ -29,6 +29,10 @@ h2,
 h3 {
 	margin-top: 0;
 }
+
+span {
+	color: #a16d6df3;
+}
 a {
 	text-decoration: none;
 }
@@ -175,6 +179,7 @@ Employee page styling
 		margin: 4%;
 		padding: 2%;
 		width: 30%;
+		background-color: white;
 	}
 	
 	.headshots {
@@ -188,12 +193,14 @@ Employee page styling
 	.employee-card h2 {
 		text-align: center;
 		text-underline-position: solid 1px slategray;
+		background-color: white;
 	}
 	
 	
 	.hello {
 		border-bottom: 1px slategrey solid;
-		margin: 2% 4% 1% 4%;
+		margin: 0 4% 1% 4%;
+		padding-top: 2%;
 		color: black;
 	}
 	
@@ -205,4 +212,8 @@ Employee page styling
 	
 	.hellop {
 		margin: 2em 4% 0 4%;
+	}
+
+	.mainbody {
+		background-color: rgba(81, 81, 119, 0.034)
 	}
