@@ -54,7 +54,7 @@ kayakList = [
 function cardAssign() {
     let empty = "";
 	for (var i=0; i < kayakList.length; i++) {
-        let productName = `<div class="card"><p>name: ${kayakList[i].name}</p><p>price: 	${kayakList[i].price}</p><p>description: ${kayakList[i].description}</p><p>url:${kayakList.url}</p></div>`;
+        let productName = `<div class="card"><p>name: ${kayakList[i].name}</p><p>price: 	${kayakList[i].price}</p><p>description: ${kayakList[i].description}</p><img src=${kayakList[i].url} alt="kayak product"></div>`;
         empty += productName;
         console.log('this is each card',empty);
     };
