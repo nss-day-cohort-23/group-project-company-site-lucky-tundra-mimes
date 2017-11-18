@@ -254,21 +254,19 @@ Employee page styling
 		text-align: center;
 		margin:auto;
 		padding: 2em;
-		border:0.5px solid black;
+		border:0.5px solid rgb(153, 82, 82);
 		border-radius: 4px;
 		
 	}
 	.card {
-		border: 2px solid black;
+		border: 1rem solid white;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		margin: 4rem 4rem 4rem 4rem;
+		float: left;
+		box-shadow: 8px 8px 8px 8px rgba(94, 10, 10, 0.733);
+		
 	}
-	.flex > div
-	{
-	   flex: 1 0 50%;
-	}
-	
-	.flex > div:first-child
-	{
-	   flex: 0 1 100%;
-	}
+.container {
+	padding: 2px 16px;
+}
