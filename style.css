@@ -81,11 +81,14 @@ img {
 }
 .banner {
 	color: rgba(94, 10, 10, 0.733);
-	background: rgba(81, 81, 119, 0.034);
-    padding: 3.2em 0;
+	background: url("nitish-meena-111116.jpg");
+	padding: 3.2em 0;
+
     
 	
+
 }
+
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
@@ -270,13 +273,14 @@ Employee page styling
 	
 }
 .card {
-	background: rgba(255, 192, 204, 0.144);
-	border-radius: 4rem;
+	background: rgba(0,0,0,0);
+	
 	flex: 1 1 auto;
 	margin: 2rem 2rem 2rem 2rem;
 	justify-content: center; 
 	color: seagreen;
 	text-align:center; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0,0,0.19) 
 	
 	
 }
