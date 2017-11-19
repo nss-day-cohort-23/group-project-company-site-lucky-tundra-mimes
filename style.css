@@ -258,16 +258,27 @@ Employee page styling
 		border-radius: 4px;
 		
 	}
-	.card {
-		border: 1rem solid white;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		margin: 4rem 4rem 4rem 4rem;
-		float: left;
-		box-shadow: 8px 8px 8px 8px rgba(94, 10, 10, 0.733);
-		
-	}
+
+	/* CARD FLEX */
+
 .container {
-	padding: 2px 16px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
+.card {
+	background: rgba(255, 192, 204, 0.144);
+	border-radius: 4rem;
+	flex: 1 1 auto;
+	margin: 2rem 2rem 2rem 2rem;
+	justify-content: center; 
+	color: seagreen;
+	text-align:center; 
+	
+	
+}
+
+
 
