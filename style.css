@@ -1,5 +1,5 @@
 /* ================================= 
-  Base Element Styles
+ INDEX.HTML CSS
 ==================================== */
 
 * {
@@ -10,11 +10,14 @@ body {
 	line-height: 1.6;
 	color: #3a3a3a;
 	margin: 0;
+	
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 p {
 	font-size: .95em;
@@ -39,6 +42,7 @@ a {
 img {
 	max-width: 100%;
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -47,11 +51,6 @@ img {
     font-size:8em;
     color:whitesmoke;
 }
-/* ================================= 
-  Base Layout Styles
-==================================== */
-
-/* ---- Navigation ---- */
 
 
 }
@@ -66,14 +65,14 @@ img {
 }
 .main-nav a {
 	font-size: .95em;
-	color: #3acec23b;
+	color: #103b383b;
 	text-transform: uppercase;
 }
 .main-nav a:hover {
 	color: #093a58;
 }
 
-/* ---- Layout Containers ---- */
+
 
 .main-header {
 	padding-top: .5em;
@@ -85,32 +84,27 @@ img {
 }
 .banner {
 	color: rgba(94, 10, 10, 0.733);
-	background: rgba(81, 81, 119, 0.034);
-    padding: 3.2em 0;
-    
-	
+	background-color: rgba(128, 128, 128, 0.137);
+	padding: 3.2em 0;
+	text-align:center;
 }
+
+
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
 }
-.main-footer {
-	background: #d9e4ea;
-	padding: 2em 0;
-	margin-top: 30px;
-}
+
 
 /* ---- Page Elements ---- */
 
 .logo {
-	width: 190px;
+	width: 19rem;
 }
 .headline {
 	margin-bottom: 0;
 }
-.feat-img {
-	border-radius: 5px;
-}
+
 
 /* ================================= 
   Media Queries
@@ -265,6 +259,37 @@ Employee page styling
 		text-align: center;
 		margin:auto;
 		padding: 2em;
-		border:0.5px solid black;
+		border:0.5px solid rgb(153, 82, 82);
 		border-radius: 4px;
+ cb-products-page-header-css
+		
 	}
+
+	/* CARD FLEX */
+
+.container {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+.card {
+	background: rgba(0,0,0,0);
+	flex: 1 1 auto;
+	margin: 2rem 2rem 2rem 2rem;
+	justify-content: center; 
+	color: seagreen;
+	text-align:center; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0,0,0.19) 
+	
+	
+}
+
+
+
+
+
+	}
+
